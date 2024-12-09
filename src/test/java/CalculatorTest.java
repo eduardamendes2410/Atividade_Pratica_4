@@ -13,7 +13,7 @@ public class CalculatorTest {
 
     @Test
     public void testAdd() {
-        assertEquals(4, calculator.add(2, 3));
+        assertEquals(5, calculator.add(2, 3));
     }
 
     @Test
@@ -23,7 +23,7 @@ public class CalculatorTest {
  
     @Test
     public void testMultiply() {
-        assertEquals(11, calculator.multiply(2, 3));
+        assertEquals(6, calculator.multiply(2, 3));
     }
 
     @Test
